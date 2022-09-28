@@ -31,11 +31,40 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # https://pub.flutter-io.cn/packages/bitsdojo_window
+  bitsdojo_window: ^0.1.5
+
+  # 能够比较对象Dart通常涉及必须覆盖==运算符以及hashCode.
+  #
+  #它不仅冗长乏味，而且不这样做会导致效率低下的代码无法按我们预期的那样运行。
+  #
+  #默认情况下，==如果两个对象是同一个实例，则返回 true。
+  #https://pub.flutter-io.cn/packages/equatable
+  equatable: ^2.0.5
+
+  #弹性体
+  #具有额外功能的列和行的集合：
+  #
+  #PaddedColumn/ PaddedRow- 在填充中包裹一列/行
+  #SeparatedColumn/ SeparatedRow- 在每个孩子之间插入任何小部件
+  #ExpandedScrollingColumn/ ExpandedScrollingRow- 允许列包含可扩展的子项，同时在需要时仍可滚动。
+  #https://pub.flutter-io.cn/packages/flextras
+  flextras: ^0.0.2
+
+  flutter_animate: ^1.0.0
+
+  get_it: ^7.2.0
+  get_it_mixin: ^3.1.4
+  provider: ^6.0.2
+  go_router: ^4.2.8
 
 dev_dependencies:
   flutter_test:
